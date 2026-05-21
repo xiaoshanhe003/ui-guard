@@ -1,0 +1,7 @@
+interface:
+  display_name: "UI Guard"
+  short_description: "Preview project tokens and UI guardrails"
+  default_prompt: "Use $ui-guard to inspect this project design system and generate a read-only UI sandbox."
+
+policy:
+  allow_implicit_invocation: true
